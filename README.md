@@ -4,7 +4,11 @@ A brief description of what this repository is for and what it contains
 
 # Contributors
 
-List contributor names and github user names, or email addresses if desired
+Names: Konrad Thorner, Aishwarya Deengar, Jia Liu, Morgan Rozman
+
+Github: kthorner, AishwaryaD1, jialiu0103, morganroz
+
+Email: kthorner@bu.edu, , jiliu@bu.edu, mrozman@bu.edu
 
 # Repository Contents
 
