@@ -8,7 +8,7 @@ Names: Konrad Thorner, Aishwarya Deengar, Jia Liu, Morgan Rozman
 
 Github: kthorner, AishwaryaD1, jialiu0103, morganroz
 
-Email: kthorner@bu.edu, , jiliu@bu.edu, mrozman@bu.edu
+Email: kthorner@bu.edu, adeengar@bu.edu , jiliu@bu.edu, mrozman@bu.edu
 
 # Repository Contents
 
@@ -23,3 +23,6 @@ Runs cufflinks on the accepted_hits.bam file output from run_tophat.qsub. Cuffli
 
 ## run_cuffdiff.qsub
 Runs cuffdiff on the P0_1, P0_2, Ad_1, and Ad_2 samples to identify differentially expressed genes between the samples and the mm9 reference. Outputs the gene_exp.diff file with differential expression data for all genes.
+
+## Analyst
+Obtained the differential gene expression of the two conditions (P0 and A) and sorted the data frame so that the smallest q_values are at the top. Produced a table of the top ten differentially expressed genes. Produced a histogram of the log2.foldchange column for all genes. Created a new data frame that contains only the significant genes. Created a second histogram of the log2 fold change values only for significant genes. Created two separate data frames with only the up- and down-regulated genes using the log2.foldchange column. Included the count of up and down regulated genes. Finally, wrote out the up- and down- regulated gene names to separate csv files for subsequent DAVID Analysis.
